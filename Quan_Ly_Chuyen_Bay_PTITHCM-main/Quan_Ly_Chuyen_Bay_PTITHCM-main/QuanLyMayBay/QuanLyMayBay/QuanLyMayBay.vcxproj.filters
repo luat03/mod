@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Button.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="DefineConst.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="EditText.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Tab.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Passengers.h">
+      <Filter>CTDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Planes.h">
+      <Filter>CTDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Flights.h">
+      <Filter>CTDL</Filter>
+    </ClInclude>
+    <ClInclude Include="ManageFlightsTab.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagePassengersTab.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagePlanesTab.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TicketTab.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionTab.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Day.h">
+      <Filter>CTDL</Filter>
+    </ClInclude>
+    <ClInclude Include="StatictisTab.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIController.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="PassData.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="FlightData.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="PlaneData.txt">
+      <Filter>Data</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Data">
+      <UniqueIdentifier>{180e1926-2e12-4091-9cd3-9e5df704b7ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{02465fb0-985b-432e-90c7-524db22ae214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CTDL">
+      <UniqueIdentifier>{1f9fa25a-6030-41b8-8663-79b754ffb9c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
